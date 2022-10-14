@@ -1,0 +1,144 @@
+.body {
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper {
+    max-width: 350px;
+    width: 100%;
+    background-color: #15263F;
+    border-radius: 15px;
+    padding: 24px 24px 0 24px;
+}
+.img {
+    max-width: 302px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text-container {
+    margin-top: 24px;
+}
+.heading {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.72px;
+    margin-bottom: 16px;
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.text {
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 24px
+}
+
+.icon-text-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.ethereum-cost {
+    color: #00FFF8;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    line-height: 20.16px;
+    font-weight: 600;
+    margin-left: 6.49px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 112.15px
+}
+.time-left {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color:  #8BACD9;
+    margin-left: 9.03;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.icon-img {
+    vertical-align: middle;
+}
+.line {
+    max-width: 302px;
+    width: 100%;
+    height: 1px;
+    background-color: #2E405A;
+    margin-top: 24px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.author-img {
+    width: 33px;
+    height: 33px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.author-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-family: 'Outfit', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.span-text {
+    font-family: 'Outfit', sans-serif;
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.author-wrapper {
+    margin-bottom: 39px;
+}
+.img-1 {
+    position: relative;
+
+}
+
+.eye {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 302px;
+    height: 302px;
+    top: 50%;
+    left: 50%;
+    background: #00FFF8;
+    opacity: 0.5;
+    border-radius: 8px;
+    display: none; 
+}
+
+
+/* hover */
+.img-1:hover .eye {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading:hover {
+    color: #00FFF8;
+}
+.author-text:hover {
+    color: #00FFF8;
+}
