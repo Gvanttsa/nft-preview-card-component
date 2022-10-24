@@ -1,0 +1,11 @@
+@media (max-width: 375px) {
+    .img {
+        width: 278px;
+    }
+    .ethereum-cost,
+    .time-left,
+    .author-text,
+    .span-text {
+        font-size: 15px;
+    }
+}

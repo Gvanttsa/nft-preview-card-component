@@ -29,7 +29,7 @@
     margin-bottom: 16px;
     font-family: 'Outfit', sans-serif;
     cursor: pointer;
-    transition: 0.2s linear;
+    
 }
 .text {
     color: #8BACD9;
@@ -122,8 +122,7 @@
     height: 302px;
     top: 50%;
     left: 50%;
-    background: #00FFF8;
-    opacity: 0.5;
+    background-color: rgb(0, 255, 248, 0.5);
     border-radius: 8px;
     display: none; 
 }
@@ -137,7 +136,7 @@
     align-items: center;
 }
 .heading:hover {
-    color: #00FFF8;
+    color: rgb(0, 255, 248);
 }
 .author-text:hover {
     color: #00FFF8;
